@@ -1,0 +1,40 @@
+{
+  "name": "is-useragent-ios",
+  "version": "1.0.0",
+  "description": "Checks if useragent is iOS",
+  "main": "commonjs/es5/index.js",
+  "module": "module/es7/index.js",
+  "jsnext:main": "module/es7/index.js",
+  "keywords": [
+    "iOS",
+    "iPhone",
+    "iPad",
+    "Apple",
+    "useragent",
+    "is",
+    "browser"
+  ],
+  "scripts": {
+    "build": "babel-node src/build/index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xboy2012/is-useragent-ios.git"
+  },
+  "author": "xboy2012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xboy2012/is-useragent-ios/issues"
+  },
+  "homepage": "https://github.com/xboy2012/is-useragent-ios#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "rollup": "^1.7.2",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
